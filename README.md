@@ -2,6 +2,15 @@
 
 This project demonstrates how to create a scroll-based video animation similar to those seen on Apple's website. It utilizes React and the `framer-motion` library to handle scroll events and animations. Instead of actual video playback, it displays a series of images on a canvas element. As the user scrolls, the images are dynamically rendered based on the scroll position, creating the illusion of a video playing.
 
+## Video Demo
+
+You can watch a demo of the scroll-based video animation below:
+
+<video width="100%" controls>
+  <source src="demo.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 ## Features
 
 - Dynamically loads images into memory for smoother performance.

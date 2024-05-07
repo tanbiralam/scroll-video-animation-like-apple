@@ -53,6 +53,7 @@ function App() {
         alignItems: "center",
       }}
     >
+      <h1 style={{color: "#fff", fontFamily: "monospace", fontSize:"50px"}}>Video Scroll Animation using Framer Motion</h1>
       <div style={{ height: "2000px" }} />
       {/* Canvas element */}
       <canvas width={1000} height={1000} ref={ref}></canvas>
