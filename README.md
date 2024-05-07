@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# Scroll-Based Video Animation with React and Framer Motion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates how to create a scroll-based video animation similar to those seen on Apple's website. It utilizes React and the `framer-motion` library to handle scroll events and animations. Instead of actual video playback, it displays a series of images on a canvas element. As the user scrolls, the images are dynamically rendered based on the scroll position, creating the illusion of a video playing.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Dynamically loads images into memory for smoother performance.
+- Maps scroll progress to display different images in the gallery.
+- Uses the `framer-motion` library for handling scroll events and animations.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository:
 
-- Configure the top-level `parserOptions` property like this:
+   ```
+   git clone https://github.com/tanbiralam/scroll-video-animation-like-apple.git
+   ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. Navigate to the project directory:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```
+   cd scroll-video-animation-like-apple
+   ```
+
+3. Install dependencies:
+
+   ```
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```
+   npm run dev
+   ```
+
+5. Open your web browser and visit `http://localhost:5173` to see the scroll gallery in action.
+
+## Usage
+
+- Scroll up and down on the webpage to navigate through the image gallery.
+- Images are loaded and rendered dynamically based on the scroll position.
+
+## Dependencies
+
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [framer-motion](https://www.framer.com/motion/): A library for creating animations and gestures in React applications.
