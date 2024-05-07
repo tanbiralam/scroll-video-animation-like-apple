@@ -5,11 +5,8 @@ This project demonstrates how to create a scroll-based video animation similar t
 ## Video Demo
 
 You can watch a demo of the scroll-based video animation below:
+[Recording_2024-05-07_21-58-3.webm](https://github.com/tanbiralam/scroll-video-animation-like-apple/assets/57638199/25bd98e9-a875-4d2a-a8f9-98e82c5de82d)
 
-<video width="100%" controls>
-  <source src="demo.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
 
 ## Features
 
